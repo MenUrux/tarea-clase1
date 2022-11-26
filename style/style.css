@@ -1,0 +1,223 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Caslon+Text&display=swap');
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: radial-gradient(circle, rgb(56, 56, 109) 0%, rgb(27, 27, 27) 100%);
+    background-size: cover;
+}
+
+.logo {
+    text-align: center;
+    margin-top: 20px;
+    width: auto;
+    height: 220px;
+    cursor: default;
+}
+
+.texto {
+    text-align: center;
+    padding-top: 55px;
+}
+
+.texto p {
+    font-size: 35px;
+    width: auto;
+    height: auto;
+    cursor: default;
+}
+
+.personajes {
+    display: flex;
+    justify-content: center;
+    padding-top: 60px;
+    /* Cambiado */
+    flex-wrap: wrap;
+}
+
+.gus:hover:after {
+    content: "Gus";
+    border: 2px solid yellow;
+    border-radius: 30px;
+    font-size: 30px;
+    display: flex;
+    text-align: center;
+    width: auto;
+    justify-content: center;
+    transform: translateY(-27px);
+}
+
+.nacho:hover:after {
+    content: "Nacho";
+    border: 2px solid yellow;
+    border-radius: 30px;
+    font-size: 30px;
+    display: flex;
+    text-align: center;
+    width: auto;
+    justify-content: center;
+    transform: translateY(-27px);
+}
+
+.saul:hover:after {
+    content: "Saul";
+    border: 2px solid yellow;
+    border-radius: 30px;
+    font-size: 30px;
+    display: flex;
+    text-align: center;
+    width: auto;
+    justify-content: center;
+    transform: translateY(-27px);
+}
+
+.kim:hover:after {
+    content: "Kim";
+    border: 2px solid yellow;
+    border-radius: 30px;
+    font-size: 30px;
+    display: flex;
+    text-align: center;
+    width: auto;
+    justify-content: center;
+    transform: translateY(-27px);
+}
+
+.mike:hover:after {
+    content: "Mike";
+    border: 2px solid yellow;
+    border-radius: 30px;
+    font-size: 30px;
+    display: flex;
+    text-align: center;
+    width: auto;
+    justify-content: center;
+    transform: translateY(-27px);
+}
+
+.personaje {
+    border-radius: 100%;
+    width: 230px;
+    height: 230px;
+    margin: 35px;
+    border: 5px solid black;
+    box-shadow: 7px 5px 5px rgb(0, 0, 0);
+    filter: brightness(80%);
+}
+
+.personaje:hover {
+    filter: brightness(120%);
+    transform: translateY(-35px);
+    transition: all 500ms ease-in-out;
+    transition-duration: 0.4s;
+    border: 3px solid rgb(216, 238, 15);
+    padding: 2px;
+}
+
+.card {
+    background-color: rgb(255, 255, 255);
+    margin-top: 80px;
+    margin-left: 160px;
+    width: 1400px;
+    height: 350px;
+    border: 4px solid black;
+    box-shadow: 10px 5px 5px rgb(15, 15, 15);
+}
+
+.avatar {
+    border-radius: 100%;
+    width: 230px;
+    height: 230px;
+    margin: 30px;
+    border: 6px solid rgb(0, 0, 0);
+    transform: translateX(1088px);
+    margin-top: -220px;
+
+}
+
+.nombre h1 {
+    font-size: 50px;
+    padding: 25px;
+}
+
+.about p {
+    width: 1020px;
+    height: auto;
+    padding: 20px;
+    font-size: 20px;
+    border-right: 3px solid black;
+}
+
+.botones {
+    display: flex;
+    justify-content: center;
+}
+
+.botones a button {
+    background: linear-gradient(to bottom, #28224f 5%, #476e9e 100%);
+    background-color: #28224f;
+    border-radius: 37px;
+    border: 2px solid #4e6096;
+    cursor: pointer;
+    color: black;
+    padding: 11px 21px;
+    display: inline-flex;
+    padding: 0;
+    text-decoration: none;
+}
+
+.inicio {
+    margin-top: 7px;
+    margin-left: 1px;
+    width: 63px;
+    height: 63px;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 10px 5px 5px rgb(15, 15, 15);
+}
+
+.atras {
+    margin-top: 7px;
+    margin-right: 20px;
+    padding: 3px;
+    width: 110px;
+    height: 58px;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 10px 5px 5px rgb(15, 15, 15);
+}
+
+.adelante {
+    margin-top: 7px;
+    margin-left: 20px;
+    width: 110px;
+    height: 58px;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 10px 5px 5px rgb(15, 15, 15);
+}
+
+.botones a button p {
+    text-align: center;
+    padding: 3px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.botones button:hover {
+    background: linear-gradient(to bottom, #28224f 5%, #7892c2 100%);
+    background-color: #28224f;
+}
+
+.svg-icon {
+    width: 40px;
+    height: 40px;
+}
